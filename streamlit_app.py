@@ -49,7 +49,7 @@ def main():
                    fixed_token=os.getenv('GOTIFY_APP_TOKEN'),
                    fixed_priority=9)
 
-    if st.sidebar.button('Temizli'):
+    if st.sidebar.button('Temizle'):
         st.session_state['key'] = K
         st.experimental_rerun()
     st.sidebar.markdown('---')
